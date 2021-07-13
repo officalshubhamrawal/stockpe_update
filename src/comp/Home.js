@@ -29,8 +29,8 @@ function Home() {
       <div className="home_from_area">
         <img src={logo} alt="logo" className="home_logo" />
         <HomeSlider />
-        <form onChange={handleOnChange}>
-          <div class="form-group d-flex mx-5" style={{ margin: "-550px" }}>
+        <form>
+          <div class="form-group d-flex mx-5" style={{ margin: "-350px" }}>
             <input
               type="tel"
               pattern=".{10}"
@@ -40,6 +40,7 @@ function Home() {
               placeholder="Mobile"
               required
               style={{ maxWidth: "400px", height: 50, marginLeft: "150px" }}
+              onChange={handleOnChange}
             />
             <button
               type="submit"
