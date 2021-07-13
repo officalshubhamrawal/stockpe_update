@@ -24,7 +24,7 @@ const HomeSlider = () => {
         </Slider>
       </div>
       <div style={{ width: "30%", margin: "250px 200px" }}>
-        <img src={land} alt="landing" />
+        <img src={land} alt="landing" className="landing_img  " />
       </div>
     </div>
   );
