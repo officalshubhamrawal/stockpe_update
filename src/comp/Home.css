@@ -1,0 +1,58 @@
+.testimonial .slick-dots li button:before {
+    font-size: 20px;
+    color: white;
+  }
+  .testimonial .slick-dots li {
+    top: 40px;
+    right: 240px;
+  }
+  
+  .home{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+      113.46deg,
+      #000000 10.07%,
+      #031c33 51.72%,
+      #004c92 102%
+    );
+  }
+
+  .home_logo{
+    width:200px;
+    position: absolute;
+    top: 40px;
+    left :50px;
+  }
+
+  .landing_img{
+    width:100%;
+    height:auto;
+    margin-top:100px ;
+  }
+
+  .testimonial_slider{
+     margin: "250px 200px"
+  }
+
+  .home_h1{
+    font-family: "Poppins";
+    max-width: "500px";
+    color:  #F1F1F1;
+    font-size: "50px";
+  }
+
+  span{
+    color:aqua
+}
+
+.home_p{
+    margin-top:"40px";
+    max-width: "500px";
+    font-size:"30px";
+    font-family: "Poppins";
+    color:rgba(51, 230, 246, 0.49) ;
+}
+
+
+  

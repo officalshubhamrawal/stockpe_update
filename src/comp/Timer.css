@@ -1,0 +1,77 @@
+.timer {
+    display: flex;
+    height: 22vh;
+    background: #1b1c1d;
+    font-family: "Poppins";
+  }
+  
+  .timer_img {
+    height: 23vh;
+  }
+  
+  .timer_h2 {
+    color: rgba(51, 230, 246, 0.49);
+    font-size: 33px;
+  }
+  
+  .timer_para {
+    font-size: 22px;
+    max-width: 560px;
+    color: #f1f1f1;
+  }
+  
+  .timer_text {
+    margin: 40px 200px;
+  }
+  
+  .t_btn {
+    padding: 10px 40px;
+    font-size: 30px;
+    background: #33e6f6;
+    box-shadow: inset 0px 3.99946px 3.99946px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+  }
+  
+  .timer_btn {
+    margin: 80px 40px;
+  }
+  
+  
+  @media only screen and (max-width: 600px){
+    .timer {
+      display: flex;
+      flex-direction:column;
+      height:40vh;
+    }
+    
+    .timer_img {
+      display:none;
+    }
+    
+    .timer_h2 {
+      color: rgba(51, 230, 246, 0.49);
+      font-size: 20px;
+    }
+    
+    .timer_para {
+      font-size: 15px;
+      color: #f1f1f1;
+    }
+    
+    .timer_text {
+      margin: 20px 50px;
+    }
+    
+    .t_btn {
+      padding: 10px 40px;
+      font-size: 10px;
+      background: #33e6f6;
+      box-shadow: inset 0px 3.99946px 3.99946px rgba(0, 0, 0, 0.25);
+      border-radius: 15px;
+    }
+    
+    .timer_btn {
+      margin: 10px 100px;
+    }
+  
+  }

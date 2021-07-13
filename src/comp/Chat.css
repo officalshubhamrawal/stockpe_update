@@ -1,0 +1,53 @@
+.chat {
+    width: 100%;
+    height: 120vh;
+    background: linear-gradient(
+      113.46deg,
+      #000000 10.07%,
+      #031c33 51.72%,
+      #004c92 102%
+    );
+  }
+  
+  .header {
+    padding-top: 60px;
+  }
+  
+  .need_svg {
+    width: 530px;
+    margin-left: 350px;
+  }
+  .customer_svg {
+    width: 560px;
+    margin-left: 120px;
+  }
+  .svg_area {
+    display: flex;
+    margin-top: 100px;
+  }
+  
+  @media only screen and (max-width: 600px){
+    .chat {
+      width: 100%;
+      height: 100vh;
+    }
+    
+    .header {
+      padding-top: 30px;
+    }
+    
+    .need_svg {
+      width: 200px;
+      margin-left: 80px;
+    }
+    .customer_svg {
+      margin-top: 20px;
+      width: 200px;
+      margin-left: 80px;
+    }
+    .svg_area {
+      display: flex;
+      flex-direction: column;
+      margin-top: 40px;
+    }
+  }

@@ -1,0 +1,131 @@
+.mid2 {
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(
+      113.46deg,
+      #000000 10.07%,
+      #031c33 51.72%,
+      #004c92 102%
+    );
+  }
+  
+  .header {
+    padding-top: 70px;
+  }
+  
+  .header_heading {
+    font-family: Poppins;
+    margin: 20px auto;
+    text-align: center;
+    color: #c5d4d7;
+    font-size: 40px;
+    max-width: 600px;
+    position: relative;
+  }
+  .header_heading:before {
+    content: "";
+    display: block;
+    width: 600px;
+    height: 3px;
+    background: #39becd;
+    right: 600px;
+    top: 45%;
+    position: absolute;
+  }
+  .header_heading:after {
+    content: "";
+    display: block;
+    width: 600px;
+    height: 3px;
+    background: #39becd;
+    left: 600px;
+    top: 45%;
+    position: absolute;
+  }
+  
+  .section {
+    display: flex;
+    justify-content: space-around;
+    font-family: Poppins;
+    color: #c5d4d7;
+  }
+  
+  .area {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h3 {
+    font-size: 30px;
+  }
+  
+  p {
+    font-size: 25px;
+    max-width: 450px;
+  }
+  
+  .svgs {
+    width: 150px;
+  }
+  
+  @media only screen and (max-width: 600px){
+    .header {
+      padding-top: 5px;
+    }
+    .section {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+    }
+    
+    .area {
+      text-align: center;
+      margin-top: 25px;
+    }
+    
+    h3 {
+      font-size: 15px;
+    }
+    
+    p {
+      font-size: 10px;
+      margin: 5px auto;
+      max-width: 200px;
+    }
+    
+    .svgs {
+      width: 70px;
+    }
+
+    .header_heading {
+      font-family: Poppins;
+      margin: 5px auto;
+      text-align: center;
+      color: #c5d4d7;
+      font-size:15px;
+      max-width: 200px;
+    }
+    .header_heading:before {
+      content: "";
+      display: block;
+      width: 70px;
+      height: 3px;
+      right: 200px;
+      top: 35%;
+    }
+    .header_heading:after {
+      content: "";
+      display: block;
+      width: 70px;
+      height: 3px;
+      left: 200px;
+      top: 35%;
+    }
+
+    .mid2 {
+      width: 100%;
+      height: 100vh;
+ 
+    }
+ 
+  }
